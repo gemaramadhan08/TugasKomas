@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="src/output.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- NAVBAR START -->
+    <nav class="fixed top-0 right-0 left-0 z-10 p-4 bg-transparent border-b-primary shadow-lg">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap justify-between items-center mx-auto">
+                <a href="#home" class="text-3xl text-secondary uppercase font-bold">Gema.</a>
+
+                <div id="btn">
+                    <button
+                        class="px-8 py-3 bg-primary rounded-full hover:bg-primary/50 text-white font-bold">Courses</button>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <section id="courses"
+        class="fixed z-[100] hidden overflow-auto shadow-xl p-4 top-0 right-0 px-10 h-[50%] bg-primary rounded-xl mt-16">
+        <div class="flex flex-col gap-3">
+            <a href="pt1.html" class="text-end border-b text-lg text-white">Pertemuan 1</a>
+            <a href="pt2.html" class="text-end border-b text-lg text-white">Pertemuan 2</a>
+            <a href="pt3.html" class="text-end border-b text-lg text-white">Pertemuan 3</a>
+            <a href="pt4.html" class="text-end border-b text-lg text-white">Pertemuan 4</a>
+            <a href="pt5.html" class="text-end border-b text-lg text-white">Pertemuan 5</a>
+            <a href="pt6.html" class="text-end border-b text-lg text-white">Pertemuan 6</a>
+            <a href="pt7.html" class="text-end border-b text-lg text-white">Pertemuan 7</a>
+            <a href="pt8.html" class="text-end border-b text-lg text-white">Pertemuan 8</a>
+            <a href="pt9.html" class="text-end border-b text-lg text-white">Pertemuan 9</a>
+            <a href="pt10.html" class="text-end border-b text-lg text-white">Pertemuan 10</a>
+            <a href="pt11.html" class="text-end border-b text-lg text-white">Pertemuan 11</a>
+            <a href="pt12.html" class="text-end border-b text-lg text-white">Pertemuan 12</a>
+            <a href="pt13.html" class="text-end border-b text-lg text-white">Pertemuan 13</a>
+            <a href="pt14.html" class="text-end border-b text-lg text-white">Pertemuan 14</a>
+        </div>
+    </section>
+    <section class="fixed flex w-full bottom-0 items-center justify-center z-10 lg:bottom-2">
+        <div class="flex mx-auto px-16 py-8 rounded-full gap-10 bg-primary/60">
+            <div>
+                <a href="#home"><ion-icon name="home-outline"
+                        class="text-white font-bold cursor-pointer text-md hover:text-white/30 transition-all duration-200"></ion-icon></a>
+            </div>
+            <div>
+                <a href="#about"><ion-icon name="person-outline"
+                        class="text-white font-bold cursor-pointer text-md hover:text-white/30 transition-all duration-200"></ion-icon></a>
+            </div>
+            <div>
+                <a href="#skills"><ion-icon name="color-wand-outline"
+                        class="text-white font-bold cursor-pointer text-md hover:text-white/30 transition-all duration-200"></ion-icon></a>
+            </div>
+            <div>
+                <a href="#projects"><ion-icon name="grid-outline"
+                        class="text-white font-bold cursor-pointer text-md hover:text-white/30 transition-all duration-200"></ion-icon></a>
+            </div>
+        </div>
+    </section>
+    <!-- NAVBAR END -->
+
+    <!-- HOME START -->
+    <section data-aos="fade-down" id="home"
+        class="min-h-screen bg-[url('../assets/eren.jpg')] lg:bg-center bg-cover bg-fixed flex justify-center items-center">
+        <div class="text text-4xl text-slate-200 font-bold tracking-widest">Hi, i am <span class="auto-type">Gema</span>
+            </d>
+    </section>
+    <!-- HOME END -->
+
+    <!-- ABOUT START -->
+    <section id="about" class="mt-3 p-20">
+        <div class="container mx-auto">
+            <h1 data-aos="fade-up" data-aos-duration="3000"
+                class="p-4 pb-8 text-3xl text-primary font-bold text-center">About</h1>
+            <div class="flex flex-col mx-auto lg:flex-row">
+                <div data-aos="fade-up" data-aos-duration="3000"
+                    class="flex flex-col mx-auto items-center justify-center mb-3 lg:w-[40%]">
+                    <img src="bg1.jpeg" alt="" width="378px"
+                        class="blur-[2px] transition-all duration-200 hover:blur-none">
+                    <div class="flex mt-5 gap-4">
+                        <ion-icon name="logo-instagram" class="text-md text-primary hover:text-primary/70"></ion-icon>
+                        <ion-icon name="logo-github" class="text-md text-primary hover:text-primary/70"></ion-icon>
+                        <ion-icon name="logo-tiktok" class="text-md text-primary hover:text-primary/70"></ion-icon>
+                        <ion-icon name="logo-twitter" class="text-md text-primary hover:text-primary/70"></ion-icon>
+                    </div>
+                </div>
+                <div class="px-4 lg:w-[60%]">
+                    <h1 data-aos="fade-up" data-aos-duration="3000"
+                        class="text-2xl text-primary font-bold mb-3 text-center">Biodata</h1>
+                    <p data-aos="fade-up" data-aos-duration="3000" class="text-base text-secondary mb-4">Lorem ipsum
+                        dolor sit amet consectetur,
+                        adipisicing elit.
+                        Consequatur nostrum fugiat recusandae quis voluptate ut pariatur voluptatibus corrupti saepe
+                        officia!</p>
+
+                    <div data-aos="fade-up" data-aos-duration="3000">
+                        <h1 class="text-xl text-primary">Nama: </h1>
+                        <p class="mb-3 text-base">Gema Ramadhan</p>
+                        <h1 class="text-xl text-primary">Date: </h1>
+                        <p class="mb-3 text-base">29-10-2003</p>
+                        <h1 class="text-xl text-primary">Alamat: </h1>
+                        <p class="mb-3 text-base">Lorem ipsum dolor sit amet.</p>
+                        <h1 class="text-xl text-primary">Visi-misi: </h1>
+                        <p>Kalo anda bisa kenapa harus saya???</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT END -->
+
+    <!-- SKILLS START -->
+    <section id="skills" class="bg-slate-200 px-4 py-20">
+        <div data-aos="fade-up" data-aos-duration="3000" class="m-20 container mx-auto">
+            <h1 class="text-primary font-bold text-center text-3xl mb-3 px-4">Skills</h1>
+            <p class="text-base px-4 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Assumenda sequi nam
+                expedita.
+                Aperiam ipsum
+                sequi adipisci, quae assumenda fuga, quisquam amet, velit dolorum inventore quidem! Fuga voluptates
+                veritatis nemo temporibus!</p>
+            <div data-aos="fade-up" data-aos-duration="3000" class="grid grid-cols-12">
+                <div class="col-span-12 lg:col-span-6 px-4">
+                    <h1 class="text-xl font-bold text-center font-primary mt-4">Web</h1>
+                    <div>
+                        <h1 class="text-lg font-bold text-primary mb-1">Html</h1>
+                        <div class="bg-slate-400 h-4 rounded-full mb-3">
+                            <div class="bg-pink-700 w-[85%] h-full text-md font-bold flex items-center">85%
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="text-lg font-bold text-primary mb-1">Css</h1>
+                        <div class="bg-slate-400 h-4 rounded-full mb-3">
+                            <div class="bg-pink-700 w-[80%] h-full text-md font-bold flex items-center">80%
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="text-lg font-bold text-primary mb-1">JavaScript</h1>
+                        <div class="bg-slate-400 h-4 rounded-full">
+                            <div class="bg-pink-700 w-[30%] h-full text-md font-bold flex items-center">30%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="3000" class="col-span-12 lg:col-span-6 px-4">
+                    <h1 class="text-xl font-bold text-center font-primary mt-4">Framework</h1>
+                    <div>
+                        <h1 class="text-lg font-bold text-primary mb-1">TailwindCss</h1>
+                        <div class="bg-slate-400 h-4 rounded-full mb-3">
+                            <div class="bg-pink-700 w-[60%] h-full text-md font-bold flex items-center">60%
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="text-lg font-bold text-primary mb-1">ReactJs</h1>
+                        <div class="bg-slate-400 h-4 rounded-full mb-3">
+                            <div class="bg-pink-700 w-[20%] h-full text-md font-bold flex items-center">20%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SKILLS END -->
+
+    <!-- PROJECT START -->
+    <section id="projects" class="px-4 py-20">
+        <div class="container mx-auto">
+            <h1 data-aos="fade-up" data-aos-duration="3000" class="font-primary text-3xl font-bold text-center mb-3">
+                Project</h1>
+            <p class="text-base mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus magnam
+                illo
+                eaque quia debitis,
+                eum modi ratione fugiat quos recusandae.</p>
+            <div data-aos="fade-up" data-aos-duration="3000" class="grid grid-cols-12 gap-4">
+                <div class="w-full col-span-12 lg:col-span-6">
+                    <div class="p-5 border shadow-xl">
+                        <img src="assets/bg-satir.png" class="border rounded-lg mb-3">
+                        <h1 class="mb-3 text-primary font-semibold text-lg">Web asal-asalan</h1>
+                        <p class="mb-7">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, non?</p>
+                        <a href="https://gemaramadhan08.github.io/Web-Satir/"
+                            class="px-7 py-5 bg-primary text-white rounded-full hover:bg-primary/50 transition-all duration-300">More</a>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="3000" class="col-span-12 lg:col-span-6">
+                    <div class="p-5 border shadow-xl">
+                        <img src="assets/bg-3d.png" class="border rounded-lg mb-3">
+                        <h1 class="mb-3 text-primary font-semibold text-lg">KompGraf</h1>
+                        <p class="mb-7">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, non?</p>
+                        <a href="https://gemaramadhan08.github.io/Web-Satir/"
+                            class="px-7 py-5 bg-primary text-white rounded-full hover:bg-primary/50 transition-all duration-300">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PROJECT END -->
+
+    <!-- FOOTER START -->
+    <footer class="bg-slate-200 border border-b-black px-4 py-20">
+        <div class="container mx-auto">
+            <div data-aos="fade-up" data-aos-duration="3000"
+                class="flex-row lg:flex justify-between items-center gap-5">
+                <div class="mb-4">
+                    <h1 class="text-2xl font-bold text-primary mt-5">Gema</h1>
+                    <h1 class="text-base">TanahAbang 008</h1>
+                    <h1 class="text-base">Jakarta Pusat, 282403</h1>
+
+                    <h1 class="font-semibold">Phone: <span class="font-light">+1 098697687</span></h1>
+                    <h1 class="font-semibold">Email: <span class="font-light">info@example.com</span></h1>
+                </div>
+
+
+                <div class="mb-4">
+                    <h1 class="mb-3 text-primary font-bold">Useful Links</h1>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </div>
+                <div>
+                    <h1 class="mb-3 text-primary font-bold">Our Services</h1>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Mahasiswa</a></li>
+                    <li><a href="#">Pengangguran</a></li>
+                </div>
+            </div>
+        </div>
+        <p data-aos="fade-up" data-aos-duration="3000" class="text-center my-9">© Copyright <span
+                class="font-bold">Gema</span> All Rights Reserved</p>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="src/main.js"></script>
+</body>
+
+</html>
